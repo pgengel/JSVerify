@@ -73,7 +73,7 @@ describe("Player", function() {
       return Math.sqrt(squared(n)) === Math.abs(n);
       });
 
-      var options = { tests: 100, quiet: false };
+      var options = { tests: 100, quiet: false }; 
 
       p.check(squareRootOfNSquaredEqualsN, options);
 
